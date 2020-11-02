@@ -12,6 +12,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
   </head>
   <body>
@@ -46,22 +47,16 @@
 <nav id="pag"  aria-label="Page navigation example">
   <ul class="pagination">
     <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
+      <a class="page-link qno" href="#" aria-label="Previous">&laquo;</a>
     </li>
-    <li class="page-item"><a class="page-link" href="#">Q1</a></li>
-    <li class="page-item "><a class="page-link" href="#">Q2</a></li>
-    <li class="page-item active "><a class="page-link" href="#">Q3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Q4</a></li>
-    <li class="page-item"><a class="page-link" href="#">Q5</a></li>
-    <li class="page-item"><a class="page-link" href="#">Q6</a></li>
+    <li class="page-item"><a class="page-link qno" href="#">Q1</a></li>
+    <li class="page-item"><a class="page-link qno" href="#">Q2</a></li>
+    <li class="page-item"><a class="page-link qno" href="#">Q3</a></li>
+    <li class="page-item"><a class="page-link qno" href="#">Q4</a></li>
+    <li class="page-item"><a class="page-link qno" href="#">Q5</a></li>
+    <li class="page-item"><a class="page-link qno" href="#">Q6</a></li>
     <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        <span class="sr-only">Next</span>
-      </a>
+      <a class="page-link qno" href="#" aria-label="Next">&raquo;</a>
     </li>
   </ul>
 </nav>
@@ -92,7 +87,7 @@
                                         <div class="offset-2 offset-sm-1 ">
                                         </div>
                                          
-                                      <div id="op1"  class="col-sm-10 col-10 border text-white  text-center  bg-transparent">
+                                      <div id="op1" tabindex="1" onclick="option()" class="col-sm-10 col-10 border text-white  text-center ">
                                           A.  –(R2/R1) * u(t)
                                       </div>
                                     </div>
@@ -100,7 +95,7 @@
                                         <div class="offset-2 offset-sm-1">
                                         </div>
                                          
-                                        <div id="op2"  class="col-sm-10 col-10 border text-white  text-center  bg-transparent">
+                                        <div id="op2" tabindex="2" onclick="option()"  class="col-sm-10 col-10 border text-white  text-center  ">
                                           B.   (R1/R2)* u(t)
                                         </div>
                                     </div>
@@ -108,7 +103,7 @@
                                         <div class="offset-2 offset-sm-1">
                                         </div>
                                          
-                                        <div id="op3"  class="col-sm-10 col-10 border text-white text-center  bg-transparent">
+                                        <div id="op3" tabindex="3" onclick="option()"  class="col-sm-10 col-10 border text-white text-center  ">
                                           C.   –(R1/R2)*u(t)
                                         </div>
                                     </div>
@@ -116,7 +111,7 @@
                                         <div class="offset-2 offset-sm-1">
                                         </div>
                                          
-                                        <div id="op4"  class="col-sm-10 col-10 border text-white text-center  bg-transparent">
+                                        <div id="op4" tabindex="4" onclick="option()" class="col-sm-10 col-10 border text-white text-center ">
                                           D.   (R2/R1)* u(t)
                                         </div>
                                     </div>
@@ -136,7 +131,7 @@
                                                   <div class="modal-dialog" role="document">
                                                     <div class="modal-content">
                                                       <div class="modal-header">
-                                                        <h5 class="modal-title" id="exampleModalLabel">ALERT</h5>
+                                                        <h5 class="modal-title" id="exampleModalLabel">Submit</h5>
                                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                           <span aria-hidden="true">&times;</span>
                                                         </button>
@@ -145,8 +140,8 @@
                                                         Do you really want to submit ?
                                                       </div>
                                                       <div class="modal-footer">
-                                                        <button type="button" class="btn btn-success" data-dismiss="modal">Yes</button>
-                                                        <button type="button" class="btn btn-danger">NO</button>
+                                                        <button type="button" class="btn btn-success">Yes</button>
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
                                                       </div>
                                                     </div>
                                                   </div>
@@ -267,7 +262,7 @@
       <footer class=" fixed-bottom ">
       <div class="container-fluid">
         <div id="ft1" class="footer-text pt-3 pb-3 text-white">Contact1:xxxxxxxxxx</div>
-        <img  src="logo pisb_2.png"  alt=""></a> 
+        <img  class="log" src="logo pisb_2.png"  alt=""></a> 
         <div id="ft2" class="footer-text pt-3 pb-3 text-white">Contact2:xxxxxxxxxx</div>
 
         
@@ -329,5 +324,34 @@
                       new Clock(clocks[i]);
                     }
       </script>
+
+   <!--   <script>
+          function option() {
+            document.getElementById("op1").style.color = "black";
+          }
+          function option() {
+            document.getElementById("op2").style.backgroundColor = "white";
+          }
+          function option() {
+            document.getElementById("op3").style.backgroundColor = "white";
+          }
+          function option() {
+            document.getElementById("op4").style.backgroundColor = "white";
+          }
+      </script>-->
+
+        <script>
+          $(document).ready(function() {
+                  var pageItem = $(".pagination li").not(".prev");
+
+                  pageItem.click(function() {
+                      pageItem.removeClass("active");
+                      $(this).not(".prev").addClass("active");
+                  });
+
+                  });
+          
+        </script>
+
 </body>
 </html>
