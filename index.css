@@ -377,14 +377,18 @@ img{
  
 }
 @media (max-width: 321px){
-  .clock {
-    font-size:5vw; 
-    padding:0.2vw;
-    padding-top: 2vh;
+ #pag{
+    font-size:10px;
   }
-  
-.clock span {
-    width: 3.8vw;
+  #ft1{
+    font-size: 11.5px;
+  }
+  #ft2{
+    font-size: 11.5px;
+  }
+  .log{
+    height:28px;
+    width:65px;
   }
 
 }
@@ -406,3 +410,447 @@ position: relative;
    display: none;
        }
 }
+@media (min-width:768px)
+{
+  .clock {
+    font-size: 2vw;
+    padding:0.2vw;
+    
+    margin-left: 30.5vw;
+    padding-top: 0.6vw;
+  }
+  #ft1{
+    margin-left: 8.5vw;
+  }
+  body{
+    font-size: 15px;
+  }
+  #questionbox{
+    margin-top: 3.8vh;
+  }
+  footer{
+    font-size: 1rem;
+    margin-top: 1.3vh;
+  }
+  #credenzlogo{
+    width: 90px;
+    height: 40px;
+  }
+  img{
+    height: 35px;
+    width: 100px;
+  }
+  #questionoption{
+    height: 74vh;
+    margin-top: 0vh;
+  }
+  #btn{
+  width: 14vw;
+}
+
+
+}
+@media (min-width:1000px){
+  #questionoption{
+    height: 70vh;
+  }
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 30.5vw;
+    padding-top: 0.4vw;
+  }
+  
+.clock span {
+    width: 2vw;
+  }
+  footer{
+    font-size: 1rem;
+  }
+  #credenzlogo{
+    width: 115px;
+  }
+   #btn{
+  width: 7vw;
+}
+
+}
+@media (min-width:1024px){
+  #questionimage{
+    width: 30vw;
+  }
+  #questionbox{
+    margin-top: 5.3vh;
+  }
+  #questionoption{
+    height: 74vh;
+  }
+
+}
+@media (min-width:1100px){
+  #questionimage{
+    width: 30vw;
+  }
+  #questionbox{
+    margin-top: 4.5vh;
+  }
+  #questionoption{
+    height: 76vh;
+  }
+  #ft1{
+    margin-left: 16.5vw;
+  }
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 31.4vw;
+    padding-top: 0.4vw;
+  }
+
+}
+@media (min-width:1200px)
+{
+  .clock {
+    font-size: 1.4vw;
+    padding:0.1vw;
+    padding-top: 0.3vw;
+    
+    margin-left: 34.5vw;
+    
+  }
+  #ft1{
+    margin-left: 19.3vw;
+  }
+  #credenzlogo{
+    width: 100px;
+  }
+  img{
+    height: 40px;
+    width: 110px;
+  }
+  footer{
+    font-size: 1rem;
+  }
+  #btn{
+  width: 10vw;
+}
+
+
+
+}
+@media (min-width:1300px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 33.5vw;
+    padding-top: 0.4vw;
+  }
+  #ft1{
+    margin-left: 19.2vw;
+  }
+  body{
+    font-size: 19px;
+  }
+  #questionbox{
+    margin-top: 5.2vh;
+  }
+  footer{
+    font-size: 1.2rem;
+  }
+  
+
+
+
+}
+@media (min-width:1400px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34vw;
+    padding-top: 0.5vw;
+  }
+  #ft1{
+    margin-left: 17.4vw;
+  }
+  body{
+    font-size: 20.2px;
+  }
+  #questionbox{
+    margin-top: 5.7vh;
+  }
+  footer{
+    font-size: 1.3rem;
+  }
+
+
+}
+@media (min-width:1440px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34vw;
+    padding-top: 0.5vw;
+  }
+  #ft1{
+    margin-left: 18vw;
+  }
+  body{
+    font-size: 20.2px;
+  }
+  #questionbox{
+    margin-top: 5.8vh;
+  }
+  #questionoption{
+    margin-top: 2.2vh;
+  }
+  footer{
+    font-size: 1.4rem;
+  }
+  #credenzlogo{
+    width: 125px;
+  }
+
+
+}
+@media (min-width:1500px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34vw;
+    padding-top: 0.3vw;
+  }
+  #ft1{
+    margin-left: 17.6vw;
+  }
+  body{
+    font-size: 20.3px;
+  }
+  #questionbox{
+    margin-top: 5.8vh;
+  }
+  footer{
+    font-size: 1.4rem;
+  }
+  #credenzlogo{
+    width: 130px;
+  }
+  img{
+    height: 48px;
+  }
+
+
+}
+@media (min-width:1600px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34.3vw;
+  
+  }
+  #ft1{
+    margin-left: 18.5vw;
+  }
+  body{
+    font-size: 21.7px;
+  }
+  #questionbox{
+    margin-top: 6vh;
+  }
+  footer{
+    font-size: 1.4rem;
+  }
+  #credenzlogo{
+    width: 135px;
+    height: 45px;
+  }
+  img{
+    height: 52px;
+    width: 125px;
+  }
+
+
+}
+@media (min-width:1700px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34.5vw;
+    
+  }
+  #ft1{
+    margin-left: 19.5vw;
+  }
+  body{
+    font-size: 23px;
+  }
+  #questionbox{
+    margin-top: 6.8vh;
+  }
+  footer{
+    font-size: 1.4rem;
+  }
+  #credenzlogo{
+    width: 140px;
+    height: 45px;
+  }
+  img{
+    height: 52px;
+    width: 125px;
+  }
+
+
+}
+@media (min-width:1800px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34.8vw;
+    
+  }
+  #ft1{
+    margin-left: 17.5vw;
+  }
+  body{
+    font-size: 25px;
+  }
+  #questionbox{
+    margin-top: 7vh;
+  }
+  footer{
+    font-size: 1.7rem;
+  }
+  #credenzlogo{
+    width: 140px;
+    height: 50px;
+  }
+  img{
+    height: 65px;
+    width: 140px;
+  }
+
+
+}
+@media (min-width:1900px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 34.8vw;
+    
+  }
+  #ft1{
+    margin-left: 18.4vw;
+  }
+  body{
+    font-size: 27px;
+  }
+  #questionbox{
+    margin-top: 7.7vh;
+  }
+  footer{
+    font-size: 1.7rem;
+  }
+  #credenzlogo{
+    width: 155px;
+    height: 58px;
+  }
+  img{
+    height: 60px;
+    width: 140px;
+  }
+  #questionoption{
+    margin-top: 2.2vh;
+  }
+
+
+}
+@media (min-width:1920px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 35vw;
+    
+  }
+  #ft1{
+    margin-left: 18.6vw;
+  }
+  body{
+    font-size: 28px;
+  }
+  #questionbox{
+    margin-top: 7.9vh;
+  }
+  footer{
+    font-size: 1.7rem;
+  }
+  #credenzlogo{
+    width: 155px;
+    height: 58px;
+  }
+  img{
+    height: 60px;
+    width: 145px;
+  }
+  #questionoption{
+    margin-top: 2.8vh;
+  }
+
+
+}
+@media (min-width:2000px)
+{
+  .clock {
+    font-size: 1.5vw;
+    padding:0.2vw;
+    
+    margin-left: 35vw;
+    
+  }
+  #ft1{
+    margin-left: 18.5vw;
+  }
+  body{
+    font-size: 29px;
+  }
+  #questionbox{
+    margin-top: 7.9vh;
+  }
+  footer{
+    font-size: 1.8rem;
+  }
+  #credenzlogo{
+    width: 160px;
+    height: 62px;
+  }
+  img{
+    height: 65px;
+    width: 150px;
+  }
+  #questionoption{
+    margin-top: 2.8vh;
+  }
+
+
+}
+
+
+
