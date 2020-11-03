@@ -255,7 +255,7 @@ footer{
   display: inline-block;
   position: relative;    
   margin-left: 0vw;
-  font-size: 15px;
+  font-size: 1rem;
 
 }
 img{
@@ -342,6 +342,22 @@ img{
 #credenzlogo{
   width: 85px;
 }
+}
+@media (max-width:420px){
+  
+  #ft1{
+    font-size: 0.95rem;
+  }
+  #ft2{
+    font-size: 0.95rem;
+  }
+  img{
+  width: 90px;
+  height: 35px; 
+  margin-left: 1vw;
+  display: inline-block;
+ }
+  
 }
 
 @media (max-width: 411px){
