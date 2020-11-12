@@ -11,6 +11,13 @@ html, body {
  	  font-family: sans-serif;
  	  font-size: 17px;
  }
+ .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color:white !important; 
+  border-color:white !important;      
+  color:#001122 !important;              
+  cursor:pointer;
+  }
+
 .navbar-brand{
     padding: 0;
  }
@@ -98,9 +105,6 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   color : white ;
  
 }
-.h90 {
- 
-}
 #questionbox{
   height: 12vh;
   overflow: auto;
@@ -137,8 +141,9 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   border-radius: 10px;
   cursor: pointer;
 }
-#op1:focus-within{
+#op1:focus{
   background-color: #00AACC;
+  color:#001122;
 }
 #op2{
   height: 8vh;
@@ -244,6 +249,14 @@ img{
  
   display: none;
 }
+.log{
+  position: relative;
+  height:40px;
+  width:120px;
+  margin-top: 3vw;
+  margin-bottom:3vw;
+  left:32%;
+}
 #q1{
   margin-left: 18vw;
 
@@ -252,7 +265,7 @@ footer{
   margin-top: 60vh;
 }
 #ft1{
-  display: inline-block;
+  display: none;
   position: relative;    
   margin-left: 0vw;
   font-size: 1rem;
@@ -265,7 +278,7 @@ img{
   display: inline-block;
  }
 #ft2{
-  display: inline-block;
+  display: none;
   position: relative;    
   margin-left: 1vw;
   font-size: 1rem;
@@ -371,8 +384,11 @@ img{
     font-size: 15.5px;
   }
   .log{
-    height:35px;
-    width:85px;
+    position: relative;
+    left:34%;
+    height:40px;
+    width:110px;
+    
   }
 
 }
@@ -387,8 +403,10 @@ img{
     font-size: 15.3px;
   }
   .log{
-    height:35px;
-    width:82px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
 
 }
@@ -403,8 +421,10 @@ img{
     font-size:0.94rem ;
   }
   .log{
-    height:35px;
-    width:80px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
 
 }
@@ -419,8 +439,10 @@ img{
     font-size:0.9rem ;
   }
   .log{
-    height:35px;
-    width:75px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
 
 }
@@ -435,8 +457,10 @@ img{
     font-size: 0.85rem;
   }
   .log{
-    height:30px;
-    width:80px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
 }
 @media (max-width:367px){
@@ -451,8 +475,10 @@ img{
     font-size: 13.5px;
   }
   .log{
-    height:30px;
-    width:75px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -468,8 +494,10 @@ img{
     font-size: 13.1px;
   }
   .log{
-    height:30px;
-    width:76px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -485,8 +513,10 @@ img{
     font-size: 13px;
   }
   .log{
-    height:30px;
-    width:73px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -502,8 +532,10 @@ img{
     font-size: 12.8px;
   }
   .log{
-    height:30px;
-    width:71px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -519,8 +551,10 @@ img{
     font-size: 12.6px;
   }
   .log{
-    height:30px;
-    width:70px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -536,8 +570,10 @@ img{
     font-size: 12.3px;
   }
   .log{
-    height:30px;
-    width:68px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -553,8 +589,10 @@ img{
     font-size: 12.2px;
   }
   .log{
-    height:30px;
-    width:66px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -570,8 +608,10 @@ img{
     font-size: 12px;
   }
   .log{
-    height:30px;
-    width:66px;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -587,8 +627,10 @@ img{
     font-size: 11.8px;
   }
   .log{
-    height:30px;
-    width:64px;
+    position: relative;
+    left:34%;
+    height:45px;
+    width:120px;
   }
   
 }
@@ -604,9 +646,10 @@ img{
     font-size: 1rem;
   }
   .log{
-    height:30px;
-    width:50px;
-    margin-left: 0vw;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -624,9 +667,10 @@ img{
     margin-left: 0vw;
   }
   .log{
-    height:30px;
-    width:45px;
-    margin-left: 0vw;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   
 }
@@ -644,9 +688,10 @@ img{
     margin-left: 0.4vw;
   }
   .log{
-    height:30px;
-    width:40px;
-    margin-left: 0.4vw;
+    position: relative;
+    left:32%;
+    height:40px;
+    width:110px;
   }
   footer{
     font-size: 0.5rem;
