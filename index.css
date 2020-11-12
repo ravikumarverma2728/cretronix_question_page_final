@@ -37,6 +37,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
     color: #ffffff;
     position: relative;
     text-align: center;
+    justify-content: center;
     overflow: hidden;
     border: 1px solid black;
     border-radius:3px;
@@ -51,6 +52,8 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
     display: inline-block;
     width: 1.8vw;
     font-family:Advent Pro;
+    text-align:center;
+    justify-content: center;
     overflow: hidden;
   }
 .clock span:nth-child(2),
