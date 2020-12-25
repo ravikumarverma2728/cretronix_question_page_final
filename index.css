@@ -441,6 +441,23 @@ a.abs{
   #ft2{
     font-size: 15.5px;
   }
+   #op1{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+  }
+   #op2{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+  }
+   #op3{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+  }
+   #op4{
+   	padding-top: 2.5vh;
+   	font-size: 1.2rem;
+  }
+
   .log{
     position: relative;
     left:34%;
@@ -534,6 +551,22 @@ a.abs{
   margin-top: 8.3vh;
   margin-left: 4.8vw;
 }
+#op1{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op2{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op3{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op4{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
 #questionbox{
   height: 27vh;
   overflow: auto;
@@ -609,6 +642,7 @@ a.abs{
     font-size:13px ;
     margin-left:5.8vw;
   }
+
   #ft1{
     font-size: 13.5px;
   }
@@ -630,6 +664,22 @@ a.abs{
   }
   #ft1{
     font-size: 13.1px;
+  }
+   #op1{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op2{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op3{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
+  }
+   #op4{
+   	padding-top: 2.4vh;
+   	font-size: 1.2rem;
   }
   #ft2{
     font-size: 13.1px;
