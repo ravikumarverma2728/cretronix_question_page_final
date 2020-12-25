@@ -36,7 +36,8 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
 }
 #credenzlogo{
   
- 
+  height: 40px;
+  width: 115px;
   margin-left: 0vw;
   padding:0vw;
 
@@ -287,13 +288,9 @@ img{
  
   display: none;
 }
-.log{
-  position: relative;
-  height:40px;
-  width:120px;
-  margin-top: 3vw;
-  margin-bottom:3vw;
-  left:32%;
+#credenzlogo{
+	height: 35px;
+	width: 100px;
 }
 #q1{
   margin-left: 18vw;
@@ -327,12 +324,7 @@ a.abs{
   font-size: 1rem;
 
 }
-img{
-  width: 90px;
-  height: 35px; 
-  margin-left: 1vw;
-  display: inline-block;
- }
+
 #ft2{
   display: none;
   position: relative;    
@@ -408,9 +400,7 @@ img{
   background-color: #001122;
   color:white;
  }
-#credenzlogo{
-  width: 85px;
-}
+
 .log{
 	margin-left: 1.5vw;
 }
@@ -1181,12 +1171,10 @@ position: relative;
     margin-left: 19.3vw;
   }
   #credenzlogo{
-    width: 100px;
-  }
-  img{
+    width: 115px;
     height: 40px;
-    width: 110px;
   }
+
   footer{
     font-size: 1rem;
   }
@@ -1272,7 +1260,8 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 125px;
+    width: 115px;
+    height: 40px;
   }
 
 
@@ -1299,11 +1288,10 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 130px;
+    width: 115px;
+    height: 40px;
   }
-  img{
-    height: 48px;
-  }
+  
 
 
 }
@@ -1329,8 +1317,8 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 135px;
-    height: 45px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 52px;
@@ -1361,8 +1349,8 @@ position: relative;
     font-size: 1.4rem;
   }
   #credenzlogo{
-    width: 140px;
-    height: 45px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 52px;
@@ -1393,8 +1381,8 @@ position: relative;
     font-size: 1.7rem;
   }
   #credenzlogo{
-    width: 140px;
-    height: 50px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 65px;
@@ -1425,8 +1413,8 @@ position: relative;
     font-size: 1.7rem;
   }
   #credenzlogo{
-    width: 155px;
-    height: 58px;
+  width: 115px;
+    height: 40px;
   }
   img{
     height: 60px;
@@ -1460,8 +1448,8 @@ position: relative;
     font-size: 1.7rem;
   }
   #credenzlogo{
-    width: 155px;
-    height: 58px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 60px;
@@ -1495,8 +1483,8 @@ position: relative;
     font-size: 1.8rem;
   }
   #credenzlogo{
-    width: 160px;
-    height: 62px;
+    width: 115px;
+    height: 40px;
   }
   img{
     height: 65px;
