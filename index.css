@@ -9,7 +9,7 @@ html, body {
     background-size: cover;
     background-position: center;
  	  font-family: sans-serif;
-    font-size: 17px;
+    
  }
  body::before{
    content:"";
@@ -36,8 +36,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
 }
 #credenzlogo{
   
-  width: 130px;
-  height: 46px;
+ 
   margin-left: 0vw;
   padding:0vw;
 
@@ -108,7 +107,9 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
 }
 
 #ru{
-	color : white ;	
+	color : white ;
+	margin-right: 1vw;
+	font-size: 1.15rem;	
 }
 
 #abt{
@@ -152,7 +153,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 8vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer;
   background-color:#001122;
@@ -165,7 +166,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 2.5vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer; 
   background-color:#001122;
@@ -178,7 +179,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 2.5vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer;
   background-color:#001122;
@@ -191,7 +192,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 8vh;
   overflow: auto;
   margin-top: 2.5vh;
-  padding-top: 1.7vh;
+  padding-top: 1.9vh;
   border-radius: 10px;
   cursor: pointer;
   background-color:#001122;
@@ -237,10 +238,16 @@ a.questionnumber{
 }
 
 footer{
-background-color:  rgba(0,0,0,0.8);
-font-family: "Segoe UI",Roboto,Arial,sans-serif;
+background-color:  rgba(0,0,0,0.7)!important;
+color: white;
 font-size: 1.25rem;
 
+}
+a.abs{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    
 }
 #ft1{
   display: inline-block;
@@ -256,6 +263,10 @@ img{
   display: inline-block;
   position: relative;    
   margin-left: 14vw;
+}
+.ft{
+	padding-bottom: 2vh;
+	padding-top: 2vh;
 }
 
 @media (max-width: 387px){
@@ -290,7 +301,14 @@ img{
 }
 footer{
   margin-top: 60vh;
+  font-size: 0rem;
+  background-color:  rgba(0,0,0,0.7)!important;
 }
+.ft{
+	padding-bottom: 0.5vh;
+	padding-top: 0.5vh;
+}
+
 #ft1{
   display: none;
   position: relative;    
