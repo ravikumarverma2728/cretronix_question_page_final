@@ -3,12 +3,12 @@ html, body {
     overflow-x: hidden;
 }
  body{
- 	  margin:0;
+    margin:0;
     padding:0;
     background: linear-gradient(-180deg,#00AACC,#001122);
     background-size: cover;
     background-position: center;
- 	  font-family: sans-serif;
+    font-family: sans-serif;
     
  }
  body::before{
@@ -104,17 +104,17 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   }
 
 #ho{
-	color : white;		
+  color : white;    
 }
 
 #ru{
-	color : white ;
-	margin-right: 1vw;
-	font-size: 1.15rem;	
+  color : white ;
+  margin-right: 1vw;
+    
 }
 
 #abt{
-	color : white ;
+  color : white ;
 
 }
 #lo{
@@ -131,6 +131,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   border-radius: 10px;
   padding-left: 4vw;
   background-color:#001122;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #imagerow{
   height: 58vh;
@@ -159,6 +160,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer;
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op1:focus{
   background-color: #00AACC;
@@ -173,6 +175,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer; 
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op2:focus{
   background-color: #00AACC;
@@ -187,6 +190,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer;
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op3:focus{
   background-color: #00AACC;
@@ -201,6 +205,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   cursor: pointer;
   background-color:#001122;
   padding-left: 15.5vw;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.7);
 }
 #op4:focus{
   background-color: #00AACC;
@@ -224,23 +229,29 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   padding-top:1vw;
 }
 #q1{
-  height: 6vh;
+  height: 5.5vh;
   overflow: auto;
   color: white;
   text-align: center;
   justify-content: center;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #001122;
+  
+  padding-top: 1vh;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.6vh;
+
 }
-#q1:focus{
-  background-color: #00AACC;
-  color:#001122;
+.box :hover{
+  
+
 }
+
 a.questionnumber{
   color: white;
   text-decoration: none;
 }
+
 
 footer{
 background-color:  rgba(0,0,0,0.7)!important;
@@ -270,8 +281,8 @@ img{
   margin-left: 14vw;
 }
 .ft{
-	padding-bottom: 2vh;
-	padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
 
 @media (max-width: 387px){
@@ -293,8 +304,8 @@ img{
   display: none;
 }
 #credenzlogo{
-	height: 35px;
-	width: 100px;
+  height: 35px;
+  width: 100px;
 }
 #q1{
   margin-left: 18vw;
@@ -306,11 +317,11 @@ footer{
   background-color:  rgba(0,0,0,1)!important;
 }
 .ft{
-	
-	margin-top: 1vh;
-	font-size: 12px;
-	padding-bottom: 0vw;
-	
+  
+  margin-top: 1vh;
+  font-size: 12px;
+  padding-bottom: 0vw;
+  
 }
 a.abs{
     text-decoration: none;
@@ -410,7 +421,7 @@ a.abs{
  }
 
 .log{
-	margin-left: 1.5vw;
+  margin-left: 1.5vw;
 }
 }
 @media (max-width:420px){
@@ -450,24 +461,24 @@ a.abs{
     font-size: 15.5px;
   }
    #op1{
-   	padding-top: 2.5vh;
-   	font-size: 1.2rem;
-   	padding-left: 19vw;
+    padding-top: 2.5vh;
+    font-size: 1.2rem;
+    padding-left: 19vw;
   }
    #op2{
-   	padding-top: 2.5vh;
-   	font-size: 1.2rem;
-   	padding-left: 19vw;
+    padding-top: 2.5vh;
+    font-size: 1.2rem;
+    padding-left: 19vw;
   }
    #op3{
-   	padding-top: 2.5vh;
-   	font-size: 1.2rem;
-   	padding-left: 19vw;
+    padding-top: 2.5vh;
+    font-size: 1.2rem;
+    padding-left: 19vw;
   }
    #op4{
-   	padding-top: 2.5vh;
-   	font-size: 1.2rem;
-   	padding-left: 19vw;
+    padding-top: 2.5vh;
+    font-size: 1.2rem;
+    padding-left: 19vw;
   }
 
   .log{
@@ -477,7 +488,7 @@ a.abs{
     width:110px;
     
   }
-  	 #questionimage{
+     #questionimage{
   height: 37vh;
   width: 81.5vw;
   margin-top: 9.8vh;
@@ -493,11 +504,11 @@ a.abs{
   padding-left: 4vw;
 }
 .pagination{
-	font-size: 0.96rem;
-	margin-left: 0.5vw;
+  font-size: 0.96rem;
+  margin-left: 0.5vw;
 }
 .log{
-	margin-left: 5vw;
+  margin-left: 5vw;
 }
 
 
@@ -557,31 +568,31 @@ a.abs{
 
 }
 @media (max-width: 385px){
-	 #questionimage{
+   #questionimage{
   height: 42vh;
   width: 81.5vw;
   margin-top: 8.3vh;
   margin-left: 4.8vw;
 }
 #op1{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
-   	padding-left: 16.5vw;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
+    padding-left: 16.5vw;
   }
    #op2{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
-   	padding-left: 16.5vw;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
+    padding-left: 16.5vw;
   }
    #op3{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
-   	padding-left: 16.5vw;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
+    padding-left: 16.5vw;
   }
    #op4{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
-   	padding-left: 16.5vw;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
+    padding-left: 16.5vw;
   }
 #questionbox{
   height: 27vh;
@@ -593,11 +604,11 @@ a.abs{
   padding-left: 4vw;
 }
 .pagination{
-	font-size: 0.79rem;
-	margin-left: 1.1vw;
+  font-size: 0.79rem;
+  margin-left: 1.1vw;
 }
 .log{
-	margin-left: 5vw;
+  margin-left: 5vw;
 }
 
 
@@ -607,32 +618,32 @@ a.abs{
     font-size: 13px;
   }
    #op1{
-   	padding-top: 2.1vh;
-   	font-size: 1.2rem;
-   	padding-left: 15vw;
+    padding-top: 2.1vh;
+    font-size: 1.2rem;
+    padding-left: 15vw;
 
   }
    #op2{
-   	padding-top: 2.1vh;
-   	font-size: 1.2rem;
-   	padding-left: 15vw;
+    padding-top: 2.1vh;
+    font-size: 1.2rem;
+    padding-left: 15vw;
   }
    #op3{
-   	padding-top: 2.1vh;
-   	font-size: 1.2rem;
-   	padding-left: 15vw;
+    padding-top: 2.1vh;
+    font-size: 1.2rem;
+    padding-left: 15vw;
   }
    #op4{
-   	padding-top: 2.1vh;
-   	font-size: 1.2rem;
-   	padding-left: 15vw;
+    padding-top: 2.1vh;
+    font-size: 1.2rem;
+    padding-left: 15vw;
   }
   .ft{
-	
-	margin-top: 1vh;
-	font-size: 11.5px;
-	padding-bottom: 0vw;
-	
+  
+  margin-top: 1vh;
+  font-size: 11.5px;
+  padding-bottom: 0vw;
+  
 }
 a.abs{
     text-decoration: none;
@@ -670,8 +681,8 @@ a.abs{
   padding-left: 4vw;
 }
 .pagination{
-	font-size: 0.76rem;
-	margin-left: 0.6vw;
+  font-size: 0.76rem;
+  margin-left: 0.6vw;
 }
 }
 @media (max-width:367px){
@@ -703,30 +714,30 @@ a.abs{
     font-size: 13.1px;
   }
    #op1{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
   }
    #op2{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
   }
    #op3{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
   }
    #op4{
-   	padding-top: 2.4vh;
-   	font-size: 1.2rem;
+    padding-top: 2.4vh;
+    font-size: 1.2rem;
   }
   #ft2{
     font-size: 13.1px;
   }
   .ft{
-	
-	margin-top: 1vh;
-	font-size: 11.3px;
-	padding-bottom: 0vw;
-	
+  
+  margin-top: 1vh;
+  font-size: 11.3px;
+  padding-bottom: 0vw;
+  
 }
 a.abs{
     text-decoration: none;
@@ -758,11 +769,11 @@ a.abs{
   padding-left: 4vw;
 }
 .pagination{
-	font-size: 0.66rem;
-	margin-left: 3.4vw;
+  font-size: 0.66rem;
+  margin-left: 3.4vw;
 }
 .log{
-	margin-left: 5vw;
+  margin-left: 5vw;
 }
 
   
@@ -773,11 +784,11 @@ a.abs{
     margin-left:5.4vw;
   }
   .ft{
-	
-	margin-top: 1vh;
-	font-size: 11.1px;
-	padding-bottom: 0vw;
-	
+  
+  margin-top: 1vh;
+  font-size: 11.1px;
+  padding-bottom: 0vw;
+  
 }
 a.abs{
     text-decoration: none;
@@ -807,11 +818,11 @@ a.abs{
     margin-left:4.9vw;
   }
   .ft{
-	
-	margin-top: 1vh;
-	font-size: 10.5px;
-	padding-bottom: 0vw;
-	
+  
+  margin-top: 1vh;
+  font-size: 10.5px;
+  padding-bottom: 0vw;
+  
 }
 a.abs{
     text-decoration: none;
@@ -917,31 +928,31 @@ a.abs{
     margin-left:3.2vw;
   }
    #op1{
-   	padding-top: 1.9vh;
-   	font-size: 1.2rem;
-   	padding-left: 12vw;
+    padding-top: 1.9vh;
+    font-size: 1.2rem;
+    padding-left: 12vw;
   }
    #op2{
-   	padding-top: 1.9vh;
-   	font-size: 1.2rem;
-   	padding-left: 12vw;
+    padding-top: 1.9vh;
+    font-size: 1.2rem;
+    padding-left: 12vw;
   }
    #op3{
-   	padding-top: 1.9vh;
-   	font-size: 1.2rem;
-   	padding-left: 12vw;
+    padding-top: 1.9vh;
+    font-size: 1.2rem;
+    padding-left: 12vw;
   }
    #op4{
-   	padding-top: 1.9vh;
-   	font-size: 1.2rem;
-   	padding-left: 12vw;
+    padding-top: 1.9vh;
+    font-size: 1.2rem;
+    padding-left: 12vw;
   }
   .ft{
-	
-	margin-top: 1vh;
-	font-size: 9.5px;
-	padding-bottom: 0vw;
-	
+  
+  margin-top: 1vh;
+  font-size: 9.5px;
+  padding-bottom: 0vw;
+  
 }
 a.abs{
     text-decoration: none;
@@ -1131,11 +1142,11 @@ a.abs{
   padding-left: 4vw;
 }
 .pagination{
-	font-size: 0.46rem;
-	margin-left: 4.8vw;
+  font-size: 0.46rem;
+  margin-left: 4.8vw;
 }
 .log{
-	margin-left: 5vw;
+  margin-left: 5vw;
 }
 
 }
