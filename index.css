@@ -5,9 +5,8 @@ html, body {
  body{
     margin:0;
     padding:0;
-    background: linear-gradient(-180deg,#00AACC,#001122);
-    background-size: cover;
-    background-position: center;
+    background: linear-gradient(to right bottom, #002244, rgb(88, 173, 243));
+    
     font-family: sans-serif;
     
  }
@@ -18,7 +17,7 @@ html, body {
    top:0;
    width:100vw;
    height:100vh;
-   backdrop-filter:blur(3px);
+   backdrop-filter:blur(100px);
  }
  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
   background-color:white !important; 
@@ -39,6 +38,14 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   height: 40px;
   width: 115px;
   margin-left: 0vw;
+  padding:0vw;
+
+ }
+ #cretronixlogo{
+  
+  height: 40px;
+  width: 65px;
+  margin-left: -0.8vw;
   padding:0vw;
 
  }
@@ -212,16 +219,19 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
   color:#001122;
 }
 #btn{
-  margin-top: 1.5vh;
+  margin-top: 3.5vh;
   height: 6vh;
-  border-radius: 4px;
-  border:none;
+  border-radius: 3px;
+  
   outline: none;
   width: 8vw;
-  background-color: #fa7c07;
+  background: linear-gradient(-180deg,#00AACC,#001122);
   color:white;
   text-align: center;
   justify-content: center;
+  font-size: 22px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
 }
 #questionoption{
   overflow: auto;
@@ -243,7 +253,7 @@ font-family: "Segoe UI",Roboto,Arial,sans-serif;
 
 }
 .box :hover{
-  
+  color: #00AACC;
 
 }
 
@@ -251,6 +261,7 @@ a.questionnumber{
   color: white;
   text-decoration: none;
 }
+
 
 
 footer{
@@ -265,21 +276,13 @@ a.abs{
     font-size:18px;
     
 }
-#ft1{
-  display: inline-block;
-  position: relative;    
-  margin-left: 16vw;
-}
+
 img{
   width: 115px;
     height: 40px; 
     margin-left: 14vw;
  }
-#ft2{
-  display: inline-block;
-  position: relative;    
-  margin-left: 14vw;
-}
+
 .ft{
   padding-bottom: 2vh;
   padding-top: 2vh;
@@ -304,9 +307,16 @@ img{
   display: none;
 }
 #credenzlogo{
-  height: 35px;
-  width: 100px;
+  display: none;
 }
+#cretronixlogo{
+  
+  height: 35px;
+  width: 65px;
+  margin-left: -2vw;
+  padding:0vw;
+
+ }
 #q1{
   margin-left: 18vw;
 
@@ -347,9 +357,10 @@ a.abs{
   font-size: 1rem;
 }
 #btn{
-  margin-left: 36%;
-  margin-top: 1.8vh;
-  width: 23vw;
+  margin-left: 22%;
+  margin-top: 2.9vh;
+  width: 25vw;
+  font-size: 18px;
 }
 #op1{
   height: 9.5vh;
@@ -397,7 +408,7 @@ a.abs{
     font-size:4vw; 
     padding:0.2vw;
     
-    margin-left: -9.9vw;
+    margin-left: -6.2vw;
     padding-top: 0.6vw;
   }
   
@@ -1188,8 +1199,8 @@ position: relative;
     margin-top: 3.8vh;
   }
   footer{
-    font-size: 1rem;
-    margin-top: 1.3vh;
+    font-size: 0.8rem;
+    margin-top: 2.6vh;
   }
   #credenzlogo{
     width: 90px;
@@ -1205,6 +1216,7 @@ position: relative;
   }
   #btn{
   width: 14vw;
+  font-size: 19px;
 }
 
 
@@ -1250,6 +1262,10 @@ position: relative;
   }
    #ft1{
     margin-left: 15.9vw;
+  }
+  #btn{
+    width: 12vw;
+    font-size: 20px;
   }
 
 }
@@ -1350,6 +1366,17 @@ position: relative;
   footer{
     font-size: 1.3rem;
   }
+  #credenzlogo{
+    margin-top: 0.3vh;
+  }
+  #cretronixlogo{
+  
+  height: 40px;
+  width: 75px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
 
 
 }
@@ -1380,6 +1407,9 @@ position: relative;
   #credenzlogo{
     width: 115px;
     height: 40px;
+  }
+  #btn{
+    font-size: 22px;
   }
 
 
@@ -1469,11 +1499,16 @@ position: relative;
   #credenzlogo{
     width: 115px;
     height: 40px;
+    margin-top: 0.4vh;
   }
-  img{
-    height: 52px;
-    width: 125px;
-  }
+  #cretronixlogo{
+  
+  height: 40px;
+  width: 80px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
 
 
 }
@@ -1501,6 +1536,7 @@ position: relative;
   #credenzlogo{
     width: 115px;
     height: 40px;
+    margin-top: 0.55vh;
   }
   img{
     height: 65px;
@@ -1563,18 +1599,27 @@ position: relative;
     margin-top: 7.9vh;
   }
   footer{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
   #credenzlogo{
     width: 115px;
-    height: 40px;
+    height: 45px;
+     margin-top: 0.7vh;
   }
-  img{
-    height: 60px;
-    width: 145px;
-  }
+  #cretronixlogo{
+  
+  height: 45px;
+  width: 85px;
+  margin-left: -0.8vw;
+  padding:0vw;
+
+ }
+
   #questionoption{
     margin-top: 2.8vh;
+  }
+  #btn{
+    font-size: 29px;
   }
 
 
